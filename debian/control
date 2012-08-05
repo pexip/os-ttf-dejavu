@@ -1,8 +1,7 @@
 Source: ttf-dejavu
 Section: fonts
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
 Build-Depends: cdbs (>= 0.4.46), debhelper (>= 5.0.42)
 Build-Depends-Indep: fontforge-nox | fontforge, perl, libfont-ttf-perl (>= 0.35)
 Standards-Version: 3.9.1
@@ -15,6 +14,7 @@ Package: ttf-dejavu
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ttf-dejavu-core, ttf-dejavu-extra
+Pre-Depends: dpkg (>= 1.15.6~)
 Conflicts: ttf-dejavu (<< 2.20-1)
 Description: Metapackage to pull in ttf-dejavu-core and ttf-dejavu-extra
  DejaVu provides an expanded version of the Vera font family aiming for
@@ -34,6 +34,7 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}
 Conflicts: ttf-dejavu (<< 2.20-1)
 Replaces: ttf-dejavu (<< 2.20-1)
+Pre-Depends: dpkg (>= 1.15.6~)
 Description: Vera font family derivate with additional characters
  DejaVu provides an expanded version of the Vera font family aiming for
  quality and broader Unicode coverage while retaining the original Vera
@@ -54,6 +55,7 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}, ttf-dejavu-core
 Conflicts: ttf-dejavu (<< 2.20-1)
 Replaces: ttf-dejavu (<< 2.20-1)
+Pre-Depends: dpkg (>= 1.15.6~)
 Description: Vera font family derivate with additional characters
  DejaVu provides an expanded version of the Vera font family aiming for
  quality and broader Unicode coverage while retaining the original Vera
