@@ -1,15 +1,17 @@
 Source: ttf-dejavu
 Section: fonts
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
 Build-Depends: cdbs (>= 0.4.46), debhelper (>= 5.0.42)
 Build-Depends-Indep: fontforge-nox | fontforge, perl, libfont-ttf-perl (>= 0.35)
 Standards-Version: 3.9.1
-Uploaders: Davide Viti <zinosat@tiscali.it>, Christian Perrier <bubulle@debian.org>, Eugeniy Meshcheryakov <eugen@debian.org>
+XSBC-Pexip-Original-Uploaders: Davide Viti <zinosat@tiscali.it>, Christian Perrier <bubulle@debian.org>, Eugeniy Meshcheryakov <eugen@debian.org>
 Vcs-Svn: svn://svn.debian.org/pkg-fonts/packages/ttf-dejavu/trunk
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-fonts/packages/ttf-dejavu/trunk
 Homepage: http://dejavu-fonts.org/
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: ttf-dejavu
 Architecture: all
