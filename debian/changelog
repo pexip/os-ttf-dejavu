@@ -1,17 +1,16 @@
-ttf-dejavu (2.33-2ubuntu1pexip1) pexip; urgency=low
+ttf-dejavu (2.33-3pexip1) pexip; urgency=low
 
-  * Prepare Pexip packaging
+  * Migrate to Jessie
 
- -- John-Mark Bell <jmb@pexip.com>  Wed, 25 Dec 2013 04:53:27 +0000
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 29 Mar 2017 23:51:04 +0100
 
-ttf-dejavu (2.33-2ubuntu1) precise; urgency=low
+ttf-dejavu (2.33-3) unstable; urgency=low
 
-  * Add 01_missing_uighur.patch: Add missing glyphs for Uighur language.
-    Thanks MihailJP for the patch. (LP: #943830)
-  * debian/rules: Disable simple-patchsys.mk, it conflicts with the 3.0
-    (quilt) format.
+  [ Ansgar Burchardt ]
+  * debian/rules: Use xz compression for binary packages. 
+    Closes: #683931
 
- -- Martin Pitt <martin.pitt@ubuntu.com>  Tue, 10 Apr 2012 07:58:03 +0200
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Aug 2012 18:19:22 +0200
 
 ttf-dejavu (2.33-2) unstable; urgency=low
 
